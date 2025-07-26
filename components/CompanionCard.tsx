@@ -14,7 +14,7 @@ const CompanionCard = ({ id, name, topic, subject, duration, color }: CompanionC
     return (
         <article className="flex flex-col w-full rounded-4xl border-black border p-4 gap-5 min-lg:max-w-[410px] justify-between" style={{ backgroundColor: color }}>
             <div className="flex items-center justify-between ">
-                <div className="px-2 py-1 h-full text-sm text-white rounded-4xl bg-black  capitalize">{subject}</div>
+                <div className="px-2 py-1 text-sm text-white rounded-4xl bg-black  capitalize">{subject}</div>
                 <div className="h-full px-2 rounded-4xl bg-black flex items-center aspect-square justify-center">
                     <Image
                         src={`/icons/bookmark.svg`}
